@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		44EF98821CCEDDF200F57EB4 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44EF98811CCEDDF200F57EB4 /* Roboto-Black.ttf */; };
-		DC4C1AA81AA7461E00ACD446 /* SSASideMenuExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4C1AA71AA7461E00ACD446 /* SSASideMenuExampleTests.swift */; };
+		DC4C1AA81AA7461E00ACD446 /* SideMenuExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4C1AA71AA7461E00ACD446 /* SideMenuExampleTests.swift */; };
 		DC4C1AB81AA7465B00ACD446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4C1AB21AA7465B00ACD446 /* AppDelegate.swift */; };
 		DC4C1AB91AA7465B00ACD446 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4C1AB31AA7465B00ACD446 /* FirstViewController.swift */; };
 		DC4C1ABA1AA7465B00ACD446 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4C1AB41AA7465B00ACD446 /* Images.xcassets */; };
@@ -32,7 +32,7 @@
 		44EF98811CCEDDF200F57EB4 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 		DC4C1A8C1AA7461E00ACD446 /* BLVCKMVGIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLVCKMVGIC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4C1AA11AA7461E00ACD446 /* BLVCKMVGIC.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLVCKMVGIC.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC4C1AA71AA7461E00ACD446 /* SSASideMenuExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSASideMenuExampleTests.swift; sourceTree = "<group>"; };
+		DC4C1AA71AA7461E00ACD446 /* SideMenuExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuExampleTests.swift; sourceTree = "<group>"; };
 		DC4C1AB21AA7465B00ACD446 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SSASideMenuExample/AppDelegate.swift; sourceTree = "<group>"; };
 		DC4C1AB31AA7465B00ACD446 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = SSASideMenuExample/FirstViewController.swift; sourceTree = "<group>"; };
 		DC4C1AB41AA7465B00ACD446 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SSASideMenuExample/Images.xcassets; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 			children = (
 				44EF987F1CCED7DD00F57EB4 /* ViewControllers */,
 				DC4C1A8E1AA7461E00ACD446 /* BLVCKMVGIC */,
-				DC4C1AA41AA7461E00ACD446 /* SSASideMenuExampleTests */,
+				DC4C1AA41AA7461E00ACD446 /* MenuExampleTests */,
 				DC4C1A8D1AA7461E00ACD446 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,12 +121,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DC4C1AA41AA7461E00ACD446 /* SSASideMenuExampleTests */ = {
+		DC4C1AA41AA7461E00ACD446 /* MenuExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				DC4C1AA71AA7461E00ACD446 /* SSASideMenuExampleTests.swift */,
+				DC4C1AA71AA7461E00ACD446 /* SideMenuExampleTests.swift */,
 				DC4C1AA51AA7461E00ACD446 /* Supporting Files */,
 			);
+			name = MenuExampleTests;
 			path = SSASideMenuExampleTests;
 			sourceTree = "<group>";
 		};
@@ -260,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC4C1AA81AA7461E00ACD446 /* SSASideMenuExampleTests.swift in Sources */,
+				DC4C1AA81AA7461E00ACD446 /* SideMenuExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

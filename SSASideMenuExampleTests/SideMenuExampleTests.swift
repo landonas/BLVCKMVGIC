@@ -5,7 +5,7 @@
 //  Created by Sebastian S. Andersen on 04/03/15.
 //  Copyright (c) 2015 SebastianAndersen. All rights reserved.
 //
-
+/*
 import UIKit
 import XCTest
 
@@ -34,3 +34,4 @@ class SSASideMenuExampleTests: XCTestCase {
     }
     
 }
+*/
