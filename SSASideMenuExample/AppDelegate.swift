@@ -9,6 +9,10 @@
 //
 
 import UIKit
+/*
+    IMPORTANT BE SURE TO NOT ADD ANY KEYS(API, PUBLIC, APPLICATION, ETC.... ). LEAVE AS DEFAULT AND ADD THEM MANUALLY
+
+*/
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, SSASideMenuDelegate {
